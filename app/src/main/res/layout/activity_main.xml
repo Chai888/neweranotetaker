@@ -9,6 +9,7 @@
     android:gravity="center">
 
     <TextView
+        android:id="@+id/nt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to Notetaker"
@@ -22,17 +23,20 @@
         android:src="@drawable/twice"/>
 
     <EditText
+        android:id="@+id/un"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Username"/>
 
     <EditText
+        android:id="@+id/p"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword"/>
 
     <Button
+        android:id="@+id/btnl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"/>
