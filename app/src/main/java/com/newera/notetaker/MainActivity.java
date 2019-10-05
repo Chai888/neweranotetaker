@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
                 String inputp=pass.getText().toString();
 
                 if(inputun.equals(uname) && inputp.equals(pass)){
-                    Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT);
+                    Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
 
                 }else{
-                    Toast.makeText(MainActivity.this, "Login Fail", Toast.LENGTH_SHORT);
+                    Toast.makeText(MainActivity.this, "Login Fail", Toast.LENGTH_SHORT).show();
                 }
 
             }
