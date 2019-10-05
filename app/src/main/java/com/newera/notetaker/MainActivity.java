@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private EditText uname,pass;
     private Button btnlogin;
+    private String username="Twice",password="12345";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 String inputun=uname.getText().toString();
                 String inputp=pass.getText().toString();
 
-                if(inputun.equals(uname) && inputp.equals(pass)){
+                if(inputun.equals(username) && inputp.equals(password)){
                     Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
 
                 }else{
